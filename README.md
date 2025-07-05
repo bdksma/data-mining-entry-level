@@ -13,8 +13,6 @@ data-mining-test/
 │   └── data\_cleaned.csv
 ├── notebooks/
 │   └── data\_preparation\_colab.ipynb
-├── sql\_queries/
-│   └── answers.sql
 ├── images/
 │   └── sales\_summary.png (optional)
 ├── README.md

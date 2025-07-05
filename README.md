@@ -1,7 +1,7 @@
 # data-mining
 This is a repository for one of technical test for position data mining engineer internship and make me get the internship proved my skill in data mining using MySQL and PHP
 ```markdown
-# 🧪 Data Mining Technical Test – Internship Portfolio
+# 🧪 Data Mining Technical Test –  Portfolio
 
 This repository contains the solution to a data mining technical test completed as part of a Data Mining Internship application. The project involves data preparation, cleaning, and solving business problems using SQL.
 

@@ -8,9 +8,6 @@ This repository contains the solution to a data mining technical test completed 
 ---
 
 ## 📁 Project Structure
-
-```
-
 data-mining-test/
 ├── data/
 │   └── data\_cleaned.csv
@@ -21,12 +18,9 @@ data-mining-test/
 ├── images/
 │   └── sales\_summary.png (optional)
 ├── README.md
-
-````
-
 ---
 
-## 🎯 Objective
+🎯 Objective
 
 To demonstrate proficiency in:
 - Data cleaning and preparation
@@ -35,21 +29,21 @@ To demonstrate proficiency in:
 
 ---
 
-## 📊 Dataset Overview
+📊 Dataset Overview
 
-- **Rows**: 75,970  
-- **Columns**: 13  
-- **Original Format**: Excel  
-- **Converted To**: CSV for processing and MySQL import
+- Rows: 75,970  
+- Columns: 13  
+- Original Format: Excel  
+- Converted To: CSV for processing and MySQL import
 
-**Tools Used:**
+Tools Used:
 - Google Colab (Python, Pandas)
 - MySQL (via XAMPP + PHPMyAdmin)
 - Microsoft Excel (initial inspection)
 
 ---
 
-## ⚙️ Data Preparation Summary
+⚙️ Data Preparation Summary
 
 - Converted date strings to `datetime` format
 - Cleaned percentage fields (`%gm`) and removed "%" symbol
@@ -62,9 +56,9 @@ To demonstrate proficiency in:
 
 ---
 
-## 🧮 SQL Analysis & Insights
+🧮 SQL Analysis & Insights
 
-### 1. 🔍 Monthly Sales per Store (sorted by highest)
+1. 🔍 Monthly Sales per Store (sorted by highest)
 
 ```sql
 SELECT  
@@ -79,12 +73,12 @@ ORDER BY
     total_sales DESC;
 ````
 
-**Insight:**
+*Insight:*
 Store `EU82` recorded the highest monthly sales in February 2024, totaling **Rp 196,726,064**.
 
 ---
 
-### 2. 🏆 Top 20 Members by Average Gross Margin (%GM)
+2. 🏆 Top 20 Members by Average Gross Margin (%GM)
 
 ```sql
 SELECT  
@@ -99,12 +93,12 @@ ORDER BY
 LIMIT 20;
 ```
 
-**Insight:**
+*Insight:*
 Members like `11003928059` and `11002214584` achieved the highest average gross margins.
 
 ---
 
-### 3. 📦 Top Category per Tag (O, F, M, B, J) Based on Quantity
+3. 📦 Top Category per Tag (O, F, M, B, J) Based on Quantity
 
 ```sql
 SELECT tag, kategori, total_qty
@@ -118,12 +112,12 @@ FROM (
 WHERE rn = 1;
 ```
 
-**Insight:**
+Insight:
 The category `1714 - STOCK SOUP` with tag `J` had the highest quantity at **243,023 units**.
 
 ---
 
-### 4. 🚫 Sales from Non-"CIGARETTE & LIGHTER" Departments
+4. 🚫 Sales from Non-"CIGARETTE & LIGHTER" Departments
 
 ```sql
 SELECT  
@@ -139,12 +133,12 @@ ORDER BY
     total_penjualan DESC;
 ```
 
-**Insight:**
+*Insight:*
 Store `QC66` had the highest non-cigarette department sales: **Rp 102,800,014**.
 
 ---
 
-## 👤 Author
+👤 Author
 
 **Yusuf Budi Kusuma**
 📧 [yusufbudikusuma7@gmail.com](mailto:yusufbudikusuma7@gmail.com)
@@ -152,7 +146,7 @@ Store `QC66` had the highest non-cigarette department sales: **Rp 102,800,014**.
 
 ---
 
-## 💼 Summary
+ 💼 Summary
 
 This project showcases end-to-end capabilities in:
 

@@ -13,8 +13,9 @@ data-mining-test/
 │   └── data\_cleaned.csv
 ├── notebooks/
 │   └── data\_preparation\_colab.ipynb
-├── images/
-│   └── sales\_summary.png (optional)
+├── result-query-desc/
+│   └── fig1.png
+│   └── technical test.pdf
 ├── README.md
 ---
 
